@@ -25,7 +25,7 @@ const michromaRegular = localFont({
 
 export const metadata: Metadata = {
   title: CONFIG.site.name,
-  description: `${CONFIG.site.name} - Plataforma de pagamento de criptomoedas`,
+  description: `${CONFIG.site.name} - Plataforma de pago de criptomonedas`,
 };
 
 export default async function RootLayout({

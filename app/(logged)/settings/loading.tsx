@@ -8,7 +8,7 @@ export default function Loading() {
   const { t } = useTranslate(["common"]);
 
   const isDark = resolvedTheme === "dark";
-  const bgColor = isDark ? "bg-gray-900" : "bg-white";
+  const bgColor = isDark ? "bg-(--primary-900)" : "bg-(--primary-50)/50";
   const textColor = isDark ? "text-gray-200" : "text-gray-700";
 
   return (

@@ -70,7 +70,7 @@ export type ConfigValue = {
 
 export const CONFIG: ConfigValue = {
   site: {
-    name: "Basspago | Admin",
+    name: process.env.NEXT_PUBLIC_SITE_NAME ?? "Wallet | Admin",
     serverUrl: process.env.NEXT_PUBLIC_API_URL ?? "",
     wsServerUrl: process.env.NEXT_PUBLIC_WS_API ?? "",
     basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
