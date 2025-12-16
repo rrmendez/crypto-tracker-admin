@@ -1,0 +1,60 @@
+{
+  "complianceListView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "compliance": "Compliance"
+    },
+    "title": "Compliance",
+    "description": "Lista de compliance",
+    "placeholderStatus": "Estado",
+    "placeholderEmail": "Correo electrónico"
+  },
+  "complianceTable": {
+    "user": "Usuario",
+    "createdAt": "Fecha de creación",
+    "updatedAt": "Fecha de actualización",
+    "updatedBy": "Actualizado por",
+    "status": "Estado",
+    "viewDetails": "Ver detalles",
+    "statusType": {
+      "PENDING": "Pendiente",
+      "VALIDATED": "Validado",
+      "REJECTED": "Rechazado",
+      "APPROVED": "Aprobado",
+      "REQUESTED": "Solicitado",
+      "PARTIALLY_REJECTED": "Parcialmente rechazado",
+      "all": "Todos"
+    }
+  },
+  "details": "Detalle",
+  "complianceDetails": {
+    "title": "Detalle",
+    "status": {
+      "label": "Estado:",
+      "PENDING": "Pendiente",
+      "VALIDATED": "Validado",
+      "REJECTED": "Rechazado",
+      "APPROVED": "Aprobado",
+      "REQUESTED": "Solicitado",
+      "PARTIALLY_REJECTED": "Parcialmente Rechazado"
+    },
+    "createdAt": "Fecha de creación:",
+    "updatedAt": "Fecha de actualización:",
+    "userInfo": {
+      "title": "Información del usuario",
+      "name": "Nombre:",
+      "email": "Email:",
+      "phone": "Teléfono:"
+    },
+    "documents": {
+      "title": "Documentos",
+      "view": "Ver"
+    },
+    "actions": {
+      "close": "Cerrar"
+    },
+    "error": {
+      "loading": "Error cargando detalles del compliance."
+    }
+  }
+}

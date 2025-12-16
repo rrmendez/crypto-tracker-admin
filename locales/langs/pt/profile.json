@@ -1,0 +1,140 @@
+{
+  "breadcrumb": {
+    "home": "Início"
+  },
+  "profileView": {
+    "tabProfile": "Perfil",
+    "tabSecurity": "Segurança",
+    "tabAccountLimit": "Limites da conta",
+    "init": "Início"
+  },
+  "editPhoneDialog": {
+    "edit": "Editar",
+    "add": "Adicionar",
+    "title": "Editar número de telefone",
+    "description": "Seu número de telefone foi atualizado com sucesso."
+  },
+  "editAddressDialog": {
+    "edit": "Editar",
+    "add": "Adicionar",
+    "title": "Editar endereço",
+    "description": "Seu endereço foi atualizado com sucesso."
+  },
+  "disableSecondFactorDialog": {
+    "title": "Desativar autenticação em dois fatores",
+    "button": "Desativar",
+    "message": "Use seu aplicativo Google Authenticator para escanear o código QR e completar a desativação.",
+    "description": "Autenticação em dois fatores desativada com sucesso.",
+    "password": "Insira a sua senha atual para desativar o segundo fator",
+    "pwd": "Senha",
+    "code": "Código",
+    "success": "Sucesso"
+  },
+  "activateSecondFactorDialog": {
+    "title": "Ativar autenticação em dois fatores",
+    "button": "Ativar",
+    "message": "Use seu aplicativo Google Authenticator para escanear o código QR e completar a ativação.",
+    "description": "Autenticação em dois fatores ativada com sucesso.",
+    "toastCopy": "Chave copiada para a área de transferência.",
+    "QR": "QR",
+    "code": "Código",
+    "success": "Sucesso"
+  },
+  "qrStep": {
+    "description": "Ou copie e cole esta chave manualmente no seu aplicativo:",
+    "continue": "Continuar",
+    "cancel": "Cancelar"
+  },
+  "codeStep": {
+    "description": "Insira o código gerado no seu aplicativo para concluir o processo.",
+    "error": "Código incorreto",
+    "back": "Voltar",
+    "continue": "Continuar",
+    "loading": "Verificando...",
+    "codeLabel": "Código de verificação (6 dígitos)",
+    "passwordLabel": "Senha da sua conta",
+    "passwordPlaceholder": "Digite sua senha",
+    "submit": "Desativar",
+    "passwordRequired": "A senha é obrigatória."
+  },
+  "success": {
+    "end": "Finalizar"
+  },
+  "securityTab": {
+    "required": "Senha obrigatória",
+    "success": "Senha atualizada com sucesso.",
+    "error": "Erro ao atualizar a senha.",
+    "checkingError": "A senha não corresponde à sua senha atual.",
+    "title": "Atualizar senha",
+    "placeholderCurrent": "Digite sua senha atual",
+    "placeholderNew": "Digite sua nova senha",
+    "placeholderConfirm": "Confirme sua nova senha",
+    "updating": "Atualizando...",
+    "update": "Atualizar",
+    "titleF2a": "Autenticação em dois fatores",
+    "descriptionF2a": "Melhore a segurança da sua conta ativando a autenticação em dois fatores.",
+    "rules": {
+      "required": "Campo obrigatório",
+      "uppercase": "Pelo menos uma letra em maiúscula",
+      "number": "Pelo menos um número",
+      "specialChar": "Pelo menos um caractere especial",
+      "passwordsMatch": "As senhas não coincidem",
+      "minLength": "A senha deve ter pelo menos 8 caracteres"
+    },
+    "newPassword": "Nova senha",
+    "passwordConfirmation": "Confirmação de senha"
+  },
+  "inputPhone": {
+    "phoneNumber": "Número de telefone",
+    "cancel": "Cancelar",
+    "sending": "Enviando...",
+    "continue": "Continuar",
+    "loading": "Carregando países...",
+    "selectCountry": "Selecionar"
+  },
+  "address": {
+    "complement": "Complemento"
+  },
+  "profileTab": {
+    "profileTitle": "Informações do Perfil",
+    "profileDescription": "Gerencie suas informações de contato.",
+    "email": "Email",
+    "phone": "Telefone",
+    "infoTitle": "Informações Gerais",
+    "infoDescriptionCnpj": "Dados da sua empresa e razão social.",
+    "infoDescription": "Seus dados pessoais.",
+    "nameCnpj": "Nome da empresa",
+    "nameRazonSocial": "Razão social",
+    "cnpj": "CNPJ",
+    "name": "Nome",
+    "lastName": "Sobrenome",
+    "cpf": "CPF",
+    "birthday": "Data de nascimento",
+    "fullName": "Nome da mãe",
+    "legalEntityTitle": "Representante Legal",
+    "legalEntityDescription": "Informações do representante da empresa.",
+    "address": "Endereço",
+    "addressTitle": "Informações do Endereço",
+    "addressDescription": "Sua endereço de faturação e envio."
+  },
+  "privateKeyCard": {
+    "title": "Chave privada do sistema",
+    "description": "Nunca compartilhe sua chave privada por chat, e-mail, captura de tela ou formulários web.",
+    "label": "Chave privada",
+    "note": "Nota: a chave fica mascarada por segurança. Para visualizá-la será solicitado o segundo fator.",
+    "alert": {
+      "title": "Nenhum segundo fator ativado",
+      "description": "É necessário ter o segundo fator de autenticação ativado",
+      "continue": "Continuar"
+    }
+  },
+  "mnemonicDialog": {
+    "steps": {
+      "credentials": "Credenciais",
+      "success": "Sucesso"
+    },
+    "title": "Mnemônico",
+    "description": "Chave secreta revelada",
+    "subtitle": "Insira sua senha e o código de verificação do segundo fator para continuar."
+  }
+}

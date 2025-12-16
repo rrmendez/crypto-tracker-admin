@@ -1,0 +1,237 @@
+{
+  "breadcrumb": {
+    "home": "Home",
+    "clients": "Clients",
+    "clientDetails": "Client Details",
+    "wallets": "Wallets"
+  },
+  "listClients": "Client List",
+  "table": {
+    "information": "Information",
+    "merchant": "Business Account",
+    "personal": "Personal Account",
+    "blocked": "Blocked",
+    "verified": "Verified",
+    "actived": "Active",
+    "notVerified": "Not verified",
+    "wallets": "View Wallets",
+    "profile": "View Profile",
+    "config": "View Settings",
+    "createWallets": "Create Wallets",
+    "noResults": "No results found",
+    "page": "Page {{page}} of {{totalPages}}",
+    "rowPerPage": "Rows per page:",
+    "previous": "Previous",
+    "next": "Next",
+    "profileTitle": "Client Profile",
+    "withdrawBlocked": "Withdraw blocked",
+    "withdrawOpen": "Active",
+    "tooltip": {
+      "accountStatus": "Account status",
+      "transactionsStatus": "Transactions status"
+    }
+  },
+  "tabs": {
+    "profile": "Profile",
+    "kycKyb": "KYC-KYB",
+    "security": "Security"
+  },
+  "profileTab": {
+    "profileInformation": "Profile Information",
+    "generalInformation": "General Information",
+    "legalRepresentativeInformation": "Legal Representative Information",
+    "addressInformation": "Address Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "nameLegal": "Representative Name",
+    "birthday": "Date of Birth",
+    "cpf": "CPF",
+    "name": "First Name",
+    "lastName": "Last Name",
+    "cnpj": "CNPJ",
+    "fantasyName": "Trade Name",
+    "bussinessName": "Business Name",
+    "motherName": "Mother's Name"
+  },
+  "kycTab": {
+    "table": {
+      "createdAt": "Request date",
+      "updatedAt": "Last update",
+      "state": "Status",
+      "createdBy": "Requesting user",
+      "actions": "View details"
+    },
+    "form": {
+      "solicitar": "Request",
+      "title": "New validation request",
+      "description": "Select the reason for the new validation and the documents you are requesting.",
+      "reason": "Reason",
+      "placeholder": "Select a reason...",
+      "reasons": {
+        "expiredDocument": "Expired document",
+        "unreadableDocument": "Unreadable document",
+        "inappropriatePhoto": "Inappropriate photo",
+        "newProofOfLife": "Request for new proof of life",
+        "other": "Other"
+      },
+      "reasonOther": "Specify the reason",
+      "reasonOtherPlaceholder": "Write the reason here...",
+      "documents": {
+        "title": "Requested documents",
+        "description": "Select the documents you want to request.",
+        "documents": {
+          "photo": "Photo",
+          "identification": "Identification document: ID, Driver's License, Passport",
+          "business": "Company document: Articles of Incorporation",
+          "legal": "Legal representative document: ID, Driver's License, Passport",
+          "representativePhoto": "Photo of the legal representative"
+        }
+      },
+      "cancel": "Cancel",
+      "submit": "Submit request"
+    }
+  },
+  "securityTab": {
+    "title": "Two-Factor Authentication",
+    "description": "Enhance your account security by enabling two-factor authentication.",
+    "content": "Are you sure you want to disable your two-factor authentication?",
+    "blockAccount": "Block/Unblock account",
+    "blockTransfers": "Block/Unblock transfers",
+    "history": "Action history",
+    "table": {
+      "createdAt": "Date",
+      "createdBy": "User",
+      "actionType": "Action",
+      "reason": "Reason"
+    }
+  },
+  "wallets": {
+    "table": {
+      "wallet": "Wallet",
+      "balance": "Balance",
+      "actions": "View details"
+    }
+  },
+  "switchBlockAccount": {
+    "blockTitle": "Account Block",
+    "unblockTitle": "Account Unblock",
+    "blockButton": "Block Account",
+    "unblockButton": "Unblock Account",
+    "blockConfirmation": "Are you sure you want to block the account?",
+    "unblockConfirmation": "Are you sure you want to unblock the account?",
+    "reasonLabel": "Reason",
+    "reasonHelper": "Other (required field)",
+    "reasonPlaceholder": "Write the reason here...",
+    "reasonCounter": "{{count}}/100",
+    "reasonError": "You must specify the reason in the text field.",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "blockSuccess": "Account successfully blocked",
+    "unblockSuccess": "Account successfully unblocked"
+  },
+  "switchBlockTransfer": {
+    "blockTitle": "Transfer Block",
+    "unblockTitle": "Transfer Unblock",
+    "blockButton": "Block Transfers",
+    "unblockButton": "Unblock Transfers",
+    "blockConfirmation": "Are you sure you want to block account transfers?",
+    "unblockConfirmation": "Are you sure you want to unblock account transfers?",
+    "reasonLabel": "Reason",
+    "reasonHelper": "Other (required field)",
+    "reasonPlaceholder": "Write the reason here...",
+    "reasonCounter": "{{count}}/100",
+    "reasonError": "You must specify the reason in the text field.",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "blockSuccess": "Transfers successfully blocked",
+    "unblockSuccess": "Transfers successfully unblocked"
+  },
+  "clientDetailsKycViews": {
+    "title": "KYC-KYB Details",
+    "loading": "Loading KYC details...",
+    "noDetails": "No details found for this KYC.",
+    "back": "Go back",
+    "requestDate": "Request Date",
+    "updateDate": "Update Date",
+    "reason": "Reason",
+    "notSpecified": "Not specified",
+    "documents": "Documents",
+    "reasonTitle": "Identity Validation",
+    "rejectReason": {
+      "documento-ilegible": "The document is unreadable",
+      "informacion-incompleta": "The information is incomplete",
+      "datos-no-coinciden": "The data does not match",
+      "foto-no-valida": "The photo is invalid",
+      "otro": "Other"
+    }
+  },
+  "documentList": {
+    "noDocuments": "No documents found.",
+    "documentFallback": "Document {{type}}",
+    "type": "Type",
+    "uploaded": "Uploaded on",
+    "viewFile": "View file"
+  },
+  "completeRejection": {
+    "rejectButton": "Reject",
+    "title": "Reject KYC",
+    "description": "Specify the reason for rejection.",
+    "reasonLabel": "Reason",
+    "selectPlaceholder": "Select a reason...",
+    "detailsLabel": "Additional details",
+    "detailsPlaceholder": "Write the details here...",
+    "cancel": "Cancel",
+    "confirm": "Accept",
+    "selectReasonError": "You must select a reason.",
+    "otherReasonRequired": "You must specify details when selecting 'Other reason'.",
+    "success": "KYC rejected successfully.",
+    "reasons": {
+      "illegible": "Illegible document",
+      "incomplete": "Incomplete information",
+      "mismatch": "Data does not match",
+      "invalidPhoto": "Invalid profile photo",
+      "other": "Other reason"
+    }
+  },
+  "approvalModal": {
+    "button": "Approve",
+    "title": "Approve KYC",
+    "description": "Are you sure you want to approve this KYC request? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Accept",
+    "success": "KYC approved successfully."
+  },
+  "clientsTable": {
+    "transfer": "Transfers",
+    "active": "Active",
+    "rejected": "Rejected",
+    "kycStatus": "KYC Status",
+    "verified": "Verified",
+    "notVerified": "Not verified",
+    "kyc": {
+      "rejectedParcially": "Partially Rejected",
+      "pending": "Pending",
+      "approved": "Approved",
+      "requested": "Requested",
+      "rejected": "Rejected"
+    },
+    "accountStatus": "Account Status",
+    "withdrawBlocked": "Withdraw blocked",
+    "withdrawOpen": "Active"
+  },
+  "correctDocuments": {
+    "error": {
+      "document": "You must select at least one document to correct.",
+      "reason": "You must indicate the reason of the correction."
+    },
+    "success": "Correction of documents sent successfully.",
+    "title": "Correct documents",
+    "description": "Select the documents to correct by the user.",
+    "see": "View file",
+    "labelMotive": "Indicate the reason of the correction",
+    "placeholderMotive": "Write the reason here...",
+    "cancel": "Cancel",
+    "confirm": "Accept"
+  }
+}

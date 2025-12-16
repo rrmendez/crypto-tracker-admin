@@ -1,0 +1,60 @@
+{
+  "breadcrumb": {
+    "home": "Inicio",
+    "users": "Usuarios",
+    "details": "Detalles"
+  },
+  "title": "Usuarios administradores",
+  "createUser": "Crear usuario",
+  "editUser": "Editar usuario",
+  "table": {
+    "edit": "Editar",
+    "details": "Ver Detalles",
+    "activate": "Activar",
+    "deactivate": "Desactivar",
+    "placeholderEmail": "Buscar por email o nombre",
+    "placeholderStatus": "Selecciona estado",
+    "status": {
+      "all": "Todos",
+      "confirmed": "Confirmado",
+      "pending": "Pendiente"
+    }
+  },
+  "form": {
+    "firstName": "Nombre",
+    "placeholderName": "Digite el nombre",
+    "lastName": "Apellido",
+    "placeholderLastName": "Digite el apellido",
+    "email": "Email",
+    "placeholderEmail": "Digite el email",
+    "phone": "Teléfono",
+    "placeholderPhone": "Escriba el teléfono",
+    "roles": "Roles",
+    "placeholderRoles": "Seleccionar roles",
+    "selectRoles": "Seleccione uno o varios roles",
+    "inputPhone": {
+      "phoneNumber": "Número de teléfono",
+      "selectCountry": "Seleccione el país",
+      "loading": "Cargando..."
+    },
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "error": {
+      "required": "Este campo es obligatorio",
+      "email": "Correo electrónico inválido",
+      "phone": "Número de teléfono inválido",
+      "maxLength": "Máximo {{max}} caracteres",
+      "emailTaken": "Este correo electrónico ya está en uso"
+    },
+    "emailAvailable": "Correo electrónico disponible",
+    "close": "Cerrar"
+  },
+  "messages": {
+    "created": "Usuario creado exitosamente",
+    "updated": "Usuario actualizado exitosamente",
+    "errorSaving": "Ha ocurrido un error al guardar el usuario",
+    "titleModal": "Confirmación",
+    "descriptionActive": "¿Está seguro de que desea activar este usuario?",
+    "descriptionDeactivate": "¿Está seguro de que desea desactivar este usuario?"
+  }
+}

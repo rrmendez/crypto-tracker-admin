@@ -1,0 +1,114 @@
+{
+  "gasProvider": {
+    "title": "Wallet de Gas",
+    "loading": "Carregando...",
+    "noWallet": "Nenhuma carteira de gas encontrada",
+    "balance": "Saldo",
+    "button": "Carregar",
+    "alert": "Envie apenas ativos de <0/> para este endereço. Ativos de outra rede serão perdidos para sempre.",
+    "deposits": "Depósitos",
+    "currency": "Moeda",
+    "placeholder": {
+      "currency": "Selecione uma moeda"
+    }
+  },
+  "feeAddress": {
+    "title": "Wallet de Taxas",
+    "loading": "Carregando...",
+    "noWallet": "Nenhuma carteira de taxas encontrada",
+    "balance": "Saldo",
+    "button": "Ver detalhes",
+    "fees": "Taxas",
+    "price": "Preço",
+    "total": "Total"
+  },
+  "exchangeAddress": {
+    "title": "Wallet de Câmbio",
+    "loading": "Carregando...",
+    "noWallet": "Nenhuma carteira de troca encontrada",
+    "balance": "Saldo",
+    "button": "Ver detalhes"
+  },
+  "clients": {
+    "title": "Usuários",
+    "noClientFound": "Nenhum cliente encontrado",
+    "noDataFound": "Nenhum dado encontrado",
+    "walletDistribution": "Distribuição",
+    "type": {
+      "user": "Pessoa",
+      "merchant": "Empresa"
+    }
+  },
+  "dialogs": {
+    "deposit": "Depositar fundos",
+    "withdraw": "Retirar fundos",
+    "balance": "Balance dos wallets"
+  },
+  "totalValue": {
+    "title": "Portfólio",
+    "balance": "Saldo"
+  },
+  "marketBehavior": {
+    "title": "Comportamento do mercado",
+    "currency": "Moeda",
+    "price": "Preço USD",
+    "variation": "Variação 24h"
+  },
+  "recentTransactions": {
+    "title": "Transações recentes"
+  },
+  "alert": {
+    "atention": "Atenção",
+    "textOne": "Certifique-se de que está enviando ativos para uma rede <0/>.",
+    "textTwo": "<0/> Enviar ativos para uma rede incorreta pode resultar na perda de fundos."
+  },
+  "send": {
+    "form": {
+      "to": {
+        "root": "Endereço de envio",
+        "placeholder": "Informe o endereço de destino",
+        "required": "Informe um endereço ou nome de domínio",
+        "invalid": "Endereço inválido",
+        "notSame": "O endereço de destino não pode ser o mesmo que o endereço da carteira",
+        "action": {
+          "paste": "Colar"
+        }
+      },
+      "amount": {
+        "root": "Valor a transferir",
+        "required": "O valor é obrigatório",
+        "min": "O valor deve ser maior ou igual a {{min}}",
+        "notBalance": "Fundos insuficientes",
+        "notAllowed": "O valor excede o limite permitido",
+        "available": "Disponível: {{amount}} {{code}}",
+        "fee": "Taxa: {{amount}} {{code}}",
+        "feeLabel": "Taxa",
+        "amountDiscounted": "Valor a descontar",
+        "action": {
+          "max": "Máx"
+        }
+      },
+      "actions": {
+        "next": "Próximo",
+        "confirm": "Confirmar"
+      }
+    }
+  },
+  "whithdraw": {
+    "success": "Transferência bem-sucedida!",
+    "steps": {
+      "information": "Informações",
+      "details": "Detalhes",
+      "code": "Confirmação",
+      "success": "Sucesso"
+    },
+    "informationStep": {
+      "currencyLabel": "Selecione a moeda",
+      "continue": "Continuar",
+      "cancel": "Cancelar"
+    },
+    "detailsStep": {
+      "back": "Voltar"
+    }
+  }
+}

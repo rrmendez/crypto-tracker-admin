@@ -1,0 +1,92 @@
+{
+  "createFee": "Crear tarifa",
+  "editFee": "Editar tarifa",
+  "form": {
+    "operation": "Operación",
+    "type": "Tipo",
+    "value": "Valor",
+    "currency": "Moneda",
+    "active": "Activo",
+    "selectOperation": "Seleccione una operación",
+    "selectType": "Seleccione un tipo",
+    "selectCurrency": "Seleccione una moneda",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "close": "Cerrar"
+  },
+  "messages": {
+    "created": "Tarifa creada exitosamente",
+    "updated": "Tarifa actualizada exitosamente",
+    "errorSaving": "Hubo un error al guardar la tarifa"
+  },
+  "feesDetails": {
+    "detailsTitle": "Detalles de Tarifa",
+    "operation": "Operación",
+    "currency": "Moneda",
+    "type": "Tipo",
+    "value": "Valor",
+    "status": "Estatus",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "createdAt": "Fecha de Creación",
+    "updatedAt": "Fecha de Actualización",
+    "createdBy": "Creado por",
+    "errorLoading": "Error al cargar los detalles de la tarifa.",
+    "close": "Cerrar"
+  },
+  "feesTable": {
+    "information": "Información",
+    "fixed": "Fijo",
+    "percentage": "Porcentaje",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "edit": "Editar",
+    "viewDetails": "Ver Detalles",
+    "delete": "Eliminar",
+    "openMenu": "Abrir menú"
+  },
+  "feesDelete": {
+    "title": "¿Eliminar tarifa?",
+    "description": "Esta acción no se puede deshacer. ¿Estás seguro de que deseas eliminar esta tarifa?",
+    "cancel": "Cancelar",
+    "confirm": "Eliminar",
+    "success": "Tarifa eliminada correctamente",
+    "error": "Error al eliminar la tarifa"
+  },
+  "feesListView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "settings": "Configuración",
+      "fees": "Tasas"
+    },
+    "title": "Tasas",
+    "description": "Lista de Tasas",
+    "create": "Crear Tasa"
+  },
+  "feesFormView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "settings": "Configuración",
+      "fees": "Tasas"
+    },
+    "edit": "Editar Tasa",
+    "create": "Crear Tasa"
+  },
+  "feesOptions": {
+    "fixedRate": "Tasa fija",
+    "percentageRate": "Tasa porcentual"
+  },
+  "operationsOptions": {
+    "DEPOSIT": "Depósito",
+    "WITHDRAW": "Transferencia",
+    "EXCHANGE": "Intercambio",
+    "SALE": "Venta",
+    "PAYMENT": "Pago"
+  },
+  "typeOptions": {
+    "FIXED": "Fijo",
+    "PERCENT": "Porcentaje"
+  },
+  "operationLabels": "Operaciones",
+  "typeLabels": "Tipos"
+}

@@ -1,0 +1,60 @@
+{
+  "complianceListView": {
+    "breadcrumb": {
+      "home": "Home",
+      "compliance": "Compliance"
+    },
+    "title": "Compliance",
+    "description": "Compliance list",
+    "placeholderStatus": "Status",
+    "placeholderEmail": "Email"
+  },
+  "complianceTable": {
+    "user": "User",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "updatedBy": "Updated by",
+    "status": "Status",
+    "viewDetails": "View details",
+    "statusType": {
+      "PENDING": "Pending",
+      "VALIDATED": "Validated",
+      "REJECTED": "Rejected",
+      "APPROVED": "Approved",
+      "REQUESTED": "Requested",
+      "PARTIALLY_REJECTED": "Partially rejected",
+      "all": "All"
+    }
+  },
+  "details": "Details",
+  "complianceDetails": {
+    "title": "Details",
+    "status": {
+      "label": "Status:",
+      "PENDING": "Pending",
+      "VALIDATED": "Validated",
+      "REJECTED": "Rejected",
+      "APPROVED": "Approved",
+      "REQUESTED": "Requested",
+      "PARTIALLY_REJECTED": "Partially rejected"
+    },
+    "createdAt": "Created at:",
+    "updatedAt": "Updated at:",
+    "userInfo": {
+      "title": "User information",
+      "name": "Name:",
+      "email": "Email:",
+      "phone": "Phone:"
+    },
+    "documents": {
+      "title": "Documents",
+      "view": "View"
+    },
+    "actions": {
+      "close": "Close"
+    },
+    "error": {
+      "loading": "Error loading compliance details."
+    }
+  }
+}

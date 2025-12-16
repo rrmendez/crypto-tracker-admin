@@ -1,0 +1,96 @@
+{
+  "depositListView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "transactions": "Transacciones",
+      "deposits": "Depósitos"
+    },
+    "title": "Depósitos",
+    "description": "Lista de depósitos"
+  },
+  "depositsTable": {
+    "headers": {
+      "user": "Usuario",
+      "operation": "Operación",
+      "amount": "Valor",
+      "currency": "Moneda",
+      "createdAt": "Fecha de Creación",
+      "updatedAt": "Fecha de Actualización",
+      "status": "Estado"
+    },
+    "actions": {
+      "details": "Detalles"
+    },
+    "filters": {
+      "userPlaceholder": "Nombre o identificación (CPF o CNPJ)",
+      "datePlaceholder": "Seleccionar fecha",
+      "currencyPlaceholder": "Seleccionar moneda",
+      "statusPlaceholder": "Seleccionar estado",
+      "rolesPlaceholder": "Tipo de cuenta",
+      "status": {
+        "all": "Todos",
+        "pending": "Pendiente",
+        "confirmed": "Confirmado",
+        "failed": "Fallido"
+      },
+      "roles": {
+        "user": "Cuenta Personal",
+        "merchant": "Cuenta de Empresa"
+      }
+    },
+    "empty": "Sin resultados",
+    "pagination": {
+      "page": "Página",
+      "of": "de",
+      "rowsPerPage": "Filas por página",
+      "previous": "Anterior",
+      "next": "Siguiente"
+    }
+  },
+  "depositsDetailsView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "transactions": "Transacciones",
+      "deposits": "Depósitos",
+      "details": "Detalles",
+      "deposit": "Depósito"
+    },
+    "title": "Detalles del depósito"
+  },
+  "withdrawalsDetailsView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "transactions": "Transacciones",
+      "withdrawals": "Transferencias",
+      "details": "Detalles"
+    },
+    "title": "Detalles de la transferencia"
+  },
+  "withdrawalsListView": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "transactions": "Transferencias",
+      "withdrawals": "Transacciones"
+    },
+    "title": "Transferencias",
+    "description": "Lista de saques"
+  },
+  "withdrawalsDetails": {
+    "status": "Estado",
+    "currency": "Moneda",
+    "createdAt": "Fecha de creación",
+    "updatedAt": "Fecha de actualización",
+    "amountSent": "Valor enviado",
+    "fees": "Tasas",
+    "totalDeducted": "Valor descontado",
+    "fromAddress": "Dirección de envío",
+    "receivedBy": "Enviado para",
+    "email": "Correo electrónico",
+    "toAddress": "Dirección de destino",
+    "txHash": "Hash de transacción",
+    "moreDetails": "Más detalles",
+    "close": "Cerrar",
+    "error": "Error al cargar los detalles de la transacción.",
+    "information": "Informaciones financieras"
+  }
+}

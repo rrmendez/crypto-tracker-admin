@@ -1,0 +1,168 @@
+{
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "pt": "Portugués"
+  },
+  "menu": {
+    "home": "Inicio",
+    "dashboard": "Dashboard",
+    "sales": "Ventas",
+    "profile": "Perfil",
+    "security": "Seguridad",
+    "notifications": "Notificaciones",
+    "logout": "Cerrar sesión",
+    "help": "Ayuda",
+    "settings": "Ajustes"
+  },
+  "login": {
+    "title": "Inicia sesión como Admin",
+    "description": "Ingresa tus credenciales a continuación para iniciar sesión",
+    "form": {
+      "email": {
+        "root": "Correo electrónico",
+        "required": "El correo electrónico es obligatorio",
+        "invalid": "El correo electrónico no es válido",
+        "max": "El correo electrónico es demasiado largo"
+      },
+      "password": {
+        "root": "Contraseña",
+        "required": "La contraseña es obligatoria",
+        "max": "La contraseña es demasiado larga"
+      },
+      "submit": "Autenticar"
+    },
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "noHaveAccountYet": "¿Aún no tienes una cuenta?",
+    "createOne": " Crear cuenta",
+    "2fa": {
+      "back": "Volver",
+      "verifyButton": "Verificar"
+    }
+  },
+  "forgot": {
+    "title": "¿Olvidaste tu contraseña?",
+    "description": "Ingresa tu correo electrónico para restablecer tu contraseña",
+    "form": {
+      "email": {
+        "root": "Correo electrónico",
+        "required": "El correo electrónico es obligatorio",
+        "invalid": "El correo electrónico no es válido",
+        "max": "El correo electrónico es demasiado largo"
+      },
+      "submit": "Enviar"
+    },
+    "success": "Hemos enviado un correo electrónico con instrucciones para restablecer tu contraseña",
+    "error": "Error enviando el correo electrónico",
+    "back": "Volver a iniciar sesión"
+  },
+  "operations": {
+    "type": {
+      "DEPOSIT": "Depósito",
+      "WITHDRAW": "Transferencia",
+      "EXCHANGE": "Intercambio",
+      "SALE": "Venta",
+      "PAYMENT": "Pago"
+    },
+    "status": {
+      "CREATED": "Creado",
+      "PENDING": "Pendiente",
+      "CONFIRMED": "Confirmado",
+      "FAILED": "Fallido",
+      "REJECTED": "Rechazado",
+      "APPROVED": "Aprobado",
+      "REQUESTED": "Solicitado",
+      "PARTIALLY_REJECTED": "Parcialmente Rechazado"
+    }
+  },
+  "resetPassword": {
+    "title": "Actualizar contraseña",
+    "form": {
+      "error": "Error al actualizar la contraseña",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "success": "Contraseña actualizada correctamente.",
+      "errorPassword": "La contraseña debe tener al menos 6 caracteres.",
+      "errorPasswordMatch": "Las contraseñas no coinciden."
+    }
+  },
+  "secondFactor": {
+    "success": "Hemos enviado un correo electrónico con instrucciones para el cliente",
+    "button": "Desactivar",
+    "title": "Desactivar segundo factor de Google",
+    "content": "Está seguro que desea desactivar el segundo factor de autenticación de Google de la cuenta?",
+    "cancel": "Cancelar"
+  },
+  "transactions": {
+    "title": "Transacciones recientes",
+    "all": "Todas",
+    "deposits": "Depósitos",
+    "transfers": "Transferencias",
+    "sales": "Ventas",
+    "errors": {
+      "title": "Algo salió mal",
+      "message": "No se pudieron cargar las transacciones. Inténtelo de nuevo más tarde."
+    },
+    "empty": {
+      "title": "No se encontraron transacciones",
+      "message": "No hay transacciones para mostrar."
+    },
+    "actions": {
+      "details": "Ver detalles",
+      "explorer": "Ver en el explorador"
+    },
+    "details": {
+      "date": "Fecha",
+      "status": "Estado",
+      "addressee": "Destinatario",
+      "sender": "Remitente",
+      "networkFee": "Comisión de red",
+      "block": "Bloque",
+      "moreDetails": "Más detalles",
+      "currency": "Moneda",
+      "valueReceived": "Valor recibido",
+      "sendBy": "Enviado por",
+      "txHash": "Hash",
+      "email": "Email",
+      "destinationAddress": "Direccion de destino",
+      "recivedBy": "Recibido por",
+      "detailsWallet": "Detalle de Wallet",
+      "addressWallet": "Dirección de Wallet",
+      "balanceWallet": "Balance de Wallet",
+      "income": "Entradas",
+      "expense": "Salidas"
+    },
+    "actionType": {
+      "ACCOUNT_UNLOCK": "Desbloqueo de cuenta",
+      "TRANSFER_UNLOCK": "Desbloqueo de transferencia",
+      "ACCOUNT_LOCK": "Bloqueo de cuenta",
+      "TRANSFER_LOCK": "Bloqueo de transferencia"
+    }
+  },
+  "navbar": {
+    "Dashboard": "Panel",
+    "Clientes": "Clientes",
+    "Compliance": "Compliance",
+    "Transacciones": "Transacciones",
+    "Depositos": "Depositos",
+    "Transferencias": "Transferencias",
+    "Usuarios": "Usuarios",
+    "Settings": "Ajustes",
+    "Currencies": "Monedas",
+    "Taxas": "Tasas",
+    "Límites": "Límites"
+  },
+  "loading": "Cargando...",
+  "commingSoon": {
+    "title": "Proximamente!",
+    "description": "Estamos trabajando duro para traer a usted la mejor experiencia posible. Por favor, revise más tarde."
+  },
+  "network": {
+    "bitcoin": "Bitcoin",
+    "ethereum": "Ethereum",
+    "bsc": "Binance Smart Chain",
+    "polygon": "Polygon",
+    "litecoin": "Litecoin",
+    "tron": "Tron"
+  }
+}

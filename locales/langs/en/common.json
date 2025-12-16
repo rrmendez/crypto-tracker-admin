@@ -1,0 +1,168 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
+  "menu": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "sales": "Sales",
+    "profile": "Profile",
+    "security": "Security",
+    "notifications": "Notifications",
+    "logout": "Logout",
+    "help": "Help",
+    "settings": "Settings"
+  },
+  "login": {
+    "title": "Login as Admin",
+    "description": "Enter your credentials below to login",
+    "form": {
+      "email": {
+        "root": "Email",
+        "required": "Email is required",
+        "invalid": "Email is not valid",
+        "max": "Email is too long"
+      },
+      "password": {
+        "root": "Password",
+        "required": "Password is required",
+        "max": "Password is too long"
+      },
+      "submit": "Authenticate"
+    },
+    "forgot_password": "Forgot your password?",
+    "noHaveAccountYet": "Don't have an account yet,",
+    "createOne": " Create account",
+    "2fa": {
+      "back": "Back",
+      "verifyButton": "Verify"
+    }
+  },
+  "forgot": {
+    "title": "Forgot your password?",
+    "description": "Enter your email below to reset your password",
+    "form": {
+      "email": {
+        "root": "Email",
+        "required": "Email is required",
+        "invalid": "Email is not valid",
+        "max": "Email is too long"
+      },
+      "submit": "Send"
+    },
+    "success": "We have sent you an email with instructions to reset your password",
+    "error": "Error sending the email",
+    "back": "Back to login"
+  },
+  "operations": {
+    "type": {
+      "DEPOSIT": "Deposit",
+      "WITHDRAW": "Withdraw",
+      "EXCHANGE": "Exchange",
+      "SALE": "Sale",
+      "PAYMENT": "Payment"
+    },
+    "status": {
+      "CREATED": "Created",
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "FAILED": "Failed",
+      "REJECTED": "Rejected",
+      "APPROVED": "Approved",
+      "REQUESTED": "Requested",
+      "PARTIALLY_REJECTED": "Partially rejected"
+    }
+  },
+  "resetPassword": {
+    "title": "Update password",
+    "form": {
+      "error": "Error updating password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "success": "Password updated successfully.",
+      "errorPassword": "Password must be at least 6 characters.",
+      "errorPasswordMatch": "Passwords do not match."
+    }
+  },
+  "secondFactor": {
+    "success": "We have sent an email with instructions to the customer",
+    "button": "Deactivate",
+    "title": "Deactivate Google Two-Factor Authentication",
+    "content": "Are you sure you want to deactivate Google's two-factor authentication for the account?",
+    "cancel": "Cancel"
+  },
+  "transactions": {
+    "title": "Recent Transactions",
+    "all": "All",
+    "deposits": "Deposits",
+    "transfers": "Transfers",
+    "sales": "Sales",
+    "errors": {
+      "title": "Something went wrong",
+      "message": "The transactions could not be loaded, please try again later."
+    },
+    "empty": {
+      "title": "No transactions found",
+      "message": "There are no transactions to display."
+    },
+    "actions": {
+      "details": "View Details",
+      "explorer": "View in Explorer"
+    },
+    "details": {
+      "date": "Date",
+      "status": "Status",
+      "addressee": "Addressee",
+      "sender": "Sender",
+      "networkFee": "Network Fee",
+      "block": "Block",
+      "moreDetails": "More details",
+      "currency": "Currency",
+      "valueReceived": "Value Received",
+      "sendBy": "Send By",
+      "txHash": "Hash",
+      "email": "Email",
+      "destinationAddress": "Destination Address",
+      "recivedBy": "Recived By",
+      "detailsWallet": "Wallet Details",
+      "addressWallet": "Wallet Address",
+      "balanceWallet": "Wallet Balance",
+      "income": "Income",
+      "expense": "Expense"
+    },
+    "actionType": {
+      "ACCOUNT_UNLOCK": "Account Unlock",
+      "TRANSFER_UNLOCK": "Transfer Unlock",
+      "ACCOUNT_LOCK": "Account Lock",
+      "TRANSFER_LOCK": "Transfer Lock"
+    }
+  },
+  "navbar": {
+    "Dashboard": "Dashboard",
+    "Clientes": "Clients",
+    "Compliance": "Compliance",
+    "Transacciones": "Transactions",
+    "Depositos": "Deposits",
+    "Transferencias": "Transfers",
+    "Usuarios": "Users",
+    "Settings": "Settings",
+    "Currencies": "Currencies",
+    "Taxas": "Fees",
+    "Límites": "Limits"
+  },
+  "loading": "Loading...",
+  "commingSoon": {
+    "title": "Comming Soon",
+    "description": "We are working hard to bring you the best experience possible. Please check back later."
+  },
+  "network": {
+    "bitcoin": "Bitcoin",
+    "ethereum": "Ethereum",
+    "bsc": "Binance Smart Chain",
+    "polygon": "Polygon",
+    "litecoin": "Litecoin",
+    "tron": "Tron"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "filters": {
+    "search": "Filtrar por nome, código, símbolo..."
+  },
+  "columns": {
+    "information": "Informações"
+  },
+  "type": {
+    "active": "Ativo",
+    "inactive": "Inativo"
+  },
+  "actions": {
+    "edit": "Editar",
+    "details": "Ver detalhes",
+    "inative": "Desativar",
+    "sync_price": "Sincronizar preço",
+    "active": "Ativar"
+  },
+  "results": {
+    "noResults": "Nenhum resultado encontrado"
+  },
+  "modal": {
+    "titleActivate": "Ativar Moeda",
+    "titleInactive": "Desativar Moeda",
+    "contentActivate": "Tem certeza de que deseja ativar esta Moeda?",
+    "contentInactive": "Tem certeza de que deseja desativar esta Moeda?",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "settings": "Ajustes",
+    "currencies": "Moedas",
+    "create": "Criar Moeda",
+    "edit": "Editar Moeda",
+    "subTitle": "Lista de moedas",
+    "add": "Adicionar",
+    "details": "Detalhes da Moeda"
+  }
+}

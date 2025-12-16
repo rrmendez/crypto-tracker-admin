@@ -1,0 +1,107 @@
+{
+  "cardTitle": "Limit Configuration",
+  "cardDescription": "List of limits configured by operation",
+  "config": "Configure",
+  "table": {
+    "operation": "Information",
+    "edit": "Edit",
+    "details": "View details",
+    "delete": "Delete"
+  },
+  "breadcrumb": {
+    "init": "Home",
+    "clients": "Clients",
+    "settings": "Settings",
+    "limits": "Limits",
+    "details": "Limits Details",
+    "edit": "Edit Limit",
+    "new": "Create Limit"
+  },
+  "accountLimits": "Account Limits",
+  "operations": {
+    "DEPOSIT": "Deposit",
+    "WITHDRAW": "Withdrawal",
+    "EXCHANGE": "Exchange",
+    "SALE": "Sale",
+    "PAYMENT": "Payment"
+  },
+  "limitInfo": {
+    "day": "Daytime",
+    "night": "Nighttime",
+    "minPerOperation": "Minimum per operation",
+    "maxPerOperation": "Maximum per operation",
+    "maxPerMonth": "Maximum per month"
+  },
+  "title": {
+    "LimitsDetails": "Limit details",
+    "edit.LimitsForm": "Edit limit",
+    "new.LimitsForm": "Configure new limit"
+  },
+  "field": {
+    "operation.LimitsDetails": "Operation",
+    "currency.LimitsDetails": "Reference currency:",
+    "minPerOp.LimitsDetails": "Minimum per operation:",
+    "maxDay.LimitsDetails": "Maximum per daytime operation:",
+    "maxNight.LimitsDetails": "Maximum per nighttime operation:",
+    "maxMonth.LimitsDetails": "Maximum per month:",
+    "maxDayValidated.LimitsDetails": "Maximum per daytime operation:",
+    "maxNightValidated.LimitsDetails": "Maximum per nighttime operation:",
+    "maxMonthValidated.LimitsDetails": "Maximum per month:",
+    "operation.LimitsForm": "Operation",
+    "currency.LimitsForm": "Reference currency:",
+    "minPerOp.LimitsForm": "Minimum per operation:",
+    "maxDay.LimitsForm": "Maximum per daytime operation:",
+    "maxNight.LimitsForm": "Maximum per nighttime operation:",
+    "maxMonth.LimitsForm": "Maximum per month:",
+    "maxDayValidated.LimitsForm": "Maximum per daytime operation:",
+    "maxNightValidated.LimitsForm": "Maximum per nighttime operation:",
+    "maxMonthValidated.LimitsForm": "Maximum per month:"
+  },
+  "section": {
+    "unverifiedUsers.LimitsDetails": "Limits applied to unverified users",
+    "verifiedUsers.LimitsDetails": "Limits applied to verified users",
+    "unverified.LimitsForm": "Limits applied to unverified users",
+    "verified.LimitsForm": "Limits applied to verified users"
+  },
+  "placeholder": {
+    "selectOperation.LimitsDetails": "Select an operation",
+    "selectOperation.LimitsForm": "Select an operation",
+    "amount.LimitsForm": "Enter the amount"
+  },
+  "button": {
+    "close.LimitsDetails": "Close",
+    "cancel.LimitsForm": "Cancel",
+    "save.LimitsForm": "Save"
+  },
+  "LimitsTable": {
+    "table": {
+      "operation": "Operation",
+      "no_results": "No results."
+    },
+    "badge": {
+      "active": "Active"
+    },
+    "menu": {
+      "open": "Open menu",
+      "edit": "Edit",
+      "details": "Details",
+      "delete": "Delete"
+    },
+    "pagination": {
+      "page": "Page",
+      "of": "of",
+      "rows_per_page": "Rows per page:",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "modal": {
+      "title": "Delete Limit",
+      "confirm_text": "Are you sure you want to remove this limit?"
+    }
+  },
+  "errorEmpty": "The value must be a number greater or equal to 0 and cannot be empty",
+  "Limit already exists": "That operation has already been added",
+  "operationEmpty": "The operation is mandatory",
+  "currencyEmpty": "The currency code is mandatory",
+  "unlimited": "Unlimited"
+}

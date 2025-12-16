@@ -1,0 +1,96 @@
+{
+  "depositListView": {
+    "breadcrumb": {
+      "home": "Início",
+      "transactions": "Transações",
+      "deposits": "Depósitos"
+    },
+    "title": "Depósitos",
+    "description": "Lista de depósitos"
+  },
+  "depositsTable": {
+    "headers": {
+      "user": "Usuário",
+      "operation": "Operação",
+      "amount": "Valor",
+      "currency": "Moeda",
+      "createdAt": "Data de Criação",
+      "updatedAt": "Data de Atualização",
+      "status": "Status"
+    },
+    "actions": {
+      "details": "Detalhes"
+    },
+    "filters": {
+      "userPlaceholder": "Nome ou identificação (CPF ou CNPJ)",
+      "datePlaceholder": "Selecionar data",
+      "currencyPlaceholder": "Selecionar moeda",
+      "statusPlaceholder": "Selecionar status",
+      "rolesPlaceholder": "Tipo de conta",
+      "status": {
+        "all": "Todos",
+        "pending": "Pendente",
+        "confirmed": "Confirmado",
+        "failed": "Falhada"
+      },
+      "roles": {
+        "user": "Conta pessoal",
+        "merchant": "Conta de empresa"
+      }
+    },
+    "empty": "Sem resultados",
+    "pagination": {
+      "page": "Página",
+      "of": "de",
+      "rowsPerPage": "Linhas por página",
+      "previous": "Anterior",
+      "next": "Próximo"
+    }
+  },
+  "depositsDetailsView": {
+    "breadcrumb": {
+      "home": "Início",
+      "transactions": "Transações",
+      "deposits": "Depósitos",
+      "details": "Detalhes",
+      "deposit": "Depósito"
+    },
+    "title": "Detalhes do depósito"
+  },
+  "withdrawalsDetailsView": {
+    "breadcrumb": {
+      "home": "Início",
+      "transactions": "Transações",
+      "withdrawals": "Transferências",
+      "details": "Detalhes"
+    },
+    "title": "Detalhes da transferência"
+  },
+  "withdrawalsListView": {
+    "breadcrumb": {
+      "home": "Início",
+      "transactions": "Transações",
+      "withdrawals": "Transferências"
+    },
+    "title": "Transferências",
+    "description": "Lista de retiradas"
+  },
+  "withdrawalsDetails": {
+    "status": "Status",
+    "currency": "Moeda",
+    "createdAt": "Data de criação",
+    "updatedAt": "Data de atualização",
+    "amountSent": "Valor enviado",
+    "fees": "Taxas",
+    "totalDeducted": "Valor descontado",
+    "fromAddress": "Endereço de envio",
+    "receivedBy": "Enviado para",
+    "email": "E-mail",
+    "toAddress": "Endereço de destino",
+    "txHash": "Hash da transação",
+    "moreDetails": "Mais detalhes",
+    "close": "Fechar",
+    "error": "Erro ao carregar detalhes da transação.",
+    "information": "Informações financeiras"
+  }
+}

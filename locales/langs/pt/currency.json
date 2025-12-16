@@ -1,0 +1,49 @@
+{
+  "cardTitle": "Detalhe da Moeda",
+  "cardDescription": "Visualização detalhada da moeda",
+  "form": {
+    "config": "Configuração",
+    "name": "Nome",
+    "symbol": "Símbolo",
+    "decimals": "Decimais"
+  },
+  "currencyForm": {
+    "cardTitle": {
+      "create": "Criar Moeda",
+      "edit": "Editar Moeda"
+    },
+    "cardDescription": {
+      "create": "Formulário para criar uma moeda",
+      "edit": "Formulário para editar uma moeda"
+    },
+    "labels": {
+      "config": "Configuração",
+      "name": "Nome",
+      "symbol": "Símbolo",
+      "decimals": "Decimais",
+      "fixedPrice": "Preço fixo da moeda na plataforma"
+    },
+    "placeholders": {
+      "selectCurrency": "Selecione uma moeda",
+      "name": "Digite o nome",
+      "symbol": "Digite o símbolo",
+      "decimals": "Digite o número de decimais",
+      "price": "Digite o preço"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "save": "Salvar"
+    },
+    "errors": {
+      "configRequired": "A configuração é obrigatória",
+      "nameRequired": "O nome é obrigatório",
+      "nameTooLong": "O nome não pode exceder 100 caracteres",
+      "invalidDecimals": "Número de decimais inválido",
+      "decimalRange": "Digite um número entre 0 e 18",
+      "invalidPrice": "Preço inválido"
+    },
+    "messages": {
+      "errorTitle": "Ocorreu um erro"
+    }
+  }
+}

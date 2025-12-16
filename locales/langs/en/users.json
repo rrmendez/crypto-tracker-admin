@@ -1,0 +1,60 @@
+{
+  "breadcrumb": {
+    "home": "Home",
+    "users": "Users",
+    "details": "Details"
+  },
+  "title": "Admin users",
+  "createUser": "Create user",
+  "editUser": "Edit user",
+  "table": {
+    "edit": "Edit",
+    "details": "View details",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "placeholderEmail": "Search by email or name",
+    "placeholderStatus": "Select status",
+    "status": {
+      "all": "All",
+      "confirmed": "Confirmed",
+      "pending": "Pending"
+    }
+  },
+  "form": {
+    "firstName": "First Name",
+    "placeholderName": "Enter first name",
+    "lastName": "Last Name",
+    "placeholderLastName": "Enter last name",
+    "email": "Email",
+    "placeholderEmail": "Enter email",
+    "phone": "Phone",
+    "placeholderPhone": "Enter phone number",
+    "roles": "Roles",
+    "placeholderRoles": "Select roles",
+    "selectRoles": "Select one or more roles",
+    "inputPhone": {
+      "phoneNumber": "Phone number",
+      "selectCountry": "Select country",
+      "loading": "Loading..."
+    },
+    "save": "Save",
+    "cancel": "Cancel",
+    "error": {
+      "required": "This field is required",
+      "email": "Invalid email address",
+      "phone": "Invalid phone number",
+      "maxLength": "Maximum {{max}} characters",
+      "emailTaken": "This email is already in use"
+    },
+    "close": "Close",
+    "emailAvailable": "Email available"
+  },
+  "messages": {
+    "created": "User created successfully",
+    "updated": "User updated successfully",
+    "errorSaving": "There was an error saving the user",
+    "titleModal": "Confirmation",
+    "descriptionActive": "Are you sure you want to activate this user?",
+    "descriptionDeactivate": "Are you sure you want to deactivate this user?"
+  }
+}

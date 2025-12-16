@@ -1,0 +1,28 @@
+{
+  "columns": {
+    "operation": "Operação",
+    "date": "Data",
+    "amount": "Valor",
+    "status": "Estado"
+  },
+  "details": "Detalhes",
+  "withoutResults": "Sem resultados",
+  "page": "Página",
+  "rowsPerPage": "Linhas por página",
+  "previous": "Anterior",
+  "next": "Próximo",
+  "operations": {
+    "type": {
+      "DEPOSIT": "Depósito",
+      "WITHDRAW": "Transferência",
+      "PARTIALLY_REJECTED": "Parcialmente Rejeitado"
+    },
+    "status": {
+      "CREATED": "Criado",
+      "PENDING": "Pendente",
+      "CONFIRMED": "Confirmado",
+      "FAILED": "Falhou",
+      "PARTIALLY_REJECTED": "Parcialmente Rejeitado"
+    }
+  }
+}

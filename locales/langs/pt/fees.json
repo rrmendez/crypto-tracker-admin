@@ -1,0 +1,92 @@
+{
+  "createFee": "Criar taxa",
+  "editFee": "Editar taxa",
+  "form": {
+    "operation": "Operação",
+    "type": "Tipo",
+    "value": "Valor",
+    "currency": "Moeda",
+    "active": "Ativo",
+    "selectOperation": "Selecione uma operação",
+    "selectType": "Selecione um tipo",
+    "selectCurrency": "Selecione uma moeda",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "close": "Fechar"
+  },
+  "messages": {
+    "created": "Taxa criada com sucesso",
+    "updated": "Taxa atualizada com sucesso",
+    "errorSaving": "Ocorreu um erro ao salvar a taxa"
+  },
+  "feesDetails": {
+    "detailsTitle": "Detalhes da Taxa",
+    "operation": "Operação",
+    "currency": "Moeda",
+    "type": "Tipo",
+    "value": "Valor",
+    "status": "Status",
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "createdAt": "Data de Criação",
+    "updatedAt": "Data de Atualização",
+    "createdBy": "Criado por",
+    "errorLoading": "Erro ao carregar os detalhes da taxa.",
+    "close": "Fechar"
+  },
+  "feesTable": {
+    "information": "Informação",
+    "fixed": "Fixo",
+    "percentage": "Percentual",
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "edit": "Editar",
+    "viewDetails": "Ver Detalhes",
+    "delete": "Excluir",
+    "openMenu": "Abrir menu"
+  },
+  "feesDelete": {
+    "title": "Excluir taxa?",
+    "description": "Esta ação não pode ser desfeita. Tem certeza de que deseja excluir esta tasa?",
+    "cancel": "Cancelar",
+    "confirm": "Excluir",
+    "success": "Taxa excluída com sucesso",
+    "error": "Erro ao excluir a taxa"
+  },
+  "feesListView": {
+    "breadcrumb": {
+      "home": "Início",
+      "settings": "Configurações",
+      "fees": "Taxas"
+    },
+    "title": "Taxas",
+    "description": "Lista de Taxas",
+    "create": "Criar Taxa"
+  },
+  "feesFormView": {
+    "breadcrumb": {
+      "home": "Início",
+      "settings": "Configurações",
+      "fees": "Taxas"
+    },
+    "edit": "Editar Taxa",
+    "create": "Criar Taxa"
+  },
+  "feesOptions": {
+    "fixedRate": "Taxa fixa",
+    "percentageRate": "Taxa percentual"
+  },
+  "operationsOptions": {
+    "DEPOSIT": "Depósito",
+    "WITHDRAW": "Transferência",
+    "EXCHANGE": "Troca",
+    "SALE": "Venda",
+    "PAYMENT": "Pagamento"
+  },
+  "typeOptions": {
+    "FIXED": "Fixo",
+    "PERCENT": "Percentual"
+  },
+  "operationLabels": "Operações",
+  "typeLabels": "Tipos"
+}

@@ -1,0 +1,28 @@
+{
+  "columns": {
+    "operation": "Operation",
+    "date": "Date",
+    "amount": "Amount",
+    "status": "Status"
+  },
+  "details": "Details",
+  "withoutResults": "No results",
+  "page": "Page",
+  "rowsPerPage": "Rows per page",
+  "previous": "Previous",
+  "next": "Next",
+  "operations": {
+    "type": {
+      "DEPOSIT": "Deposit",
+      "WITHDRAW": "Withdrawal",
+      "PARTIALLY_REJECTED": "Partially Rejected"
+    },
+    "status": {
+      "CREATED": "Created",
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "FAILED": "Failed",
+      "PARTIALLY_REJECTED": "Partially Rejected"
+    }
+  }
+}

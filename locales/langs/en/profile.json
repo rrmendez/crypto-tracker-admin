@@ -1,0 +1,140 @@
+{
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "profileView": {
+    "tabProfile": "Profile",
+    "tabSecurity": "Security",
+    "tabAccountLimit": "Account Limits",
+    "init": "Home"
+  },
+  "editPhoneDialog": {
+    "edit": "Edit",
+    "add": "Add",
+    "title": "Edit Phone Number",
+    "description": "Your phone number has been successfully updated."
+  },
+  "editAddressDialog": {
+    "edit": "Edit",
+    "add": "Add",
+    "title": "Edit Address",
+    "description": "Your address has been successfully updated."
+  },
+  "disableSecondFactorDialog": {
+    "title": "Disable Two-Factor Authentication",
+    "button": "Disable",
+    "message": "Use your Google Authenticator app to scan the QR code and complete the deactivation.",
+    "description": "Two-factor authentication successfully disabled.",
+    "password": "Enter your current password to disable the second factor",
+    "pwd": "Password",
+    "code": "Code",
+    "success": "Success"
+  },
+  "activateSecondFactorDialog": {
+    "title": "Enable Two-Factor Authentication",
+    "button": "Enable",
+    "message": "Use your Google Authenticator app to scan the QR code and complete the activation.",
+    "description": "Two-factor authentication successfully enabled.",
+    "toastCopy": "Key copied to clipboard.",
+    "QR": "QR",
+    "code": "Code",
+    "success": "Success"
+  },
+  "qrStep": {
+    "description": "Or copy and paste this key manually into your app:",
+    "continue": "Continue",
+    "cancel": "Cancel"
+  },
+  "codeStep": {
+    "description": "Enter the code generated in your app to complete the process.",
+    "error": "Incorrect code",
+    "back": "Back",
+    "continue": "Continue",
+    "loading": "Verifying...",
+    "codeLabel": "Verification code (6 digits)",
+    "passwordLabel": "Your account password",
+    "passwordPlaceholder": "Enter your password",
+    "submit": "Disable",
+    "passwordRequired": "Password is required."
+  },
+  "success": {
+    "end": "Finish"
+  },
+  "securityTab": {
+    "required": "Password required",
+    "success": "Password updated successfully.",
+    "error": "Error updating the password.",
+    "checkingError": "The password does not match your current password.",
+    "title": "Update Password",
+    "placeholderCurrent": "Enter your current password",
+    "placeholderNew": "Enter your new password",
+    "placeholderConfirm": "Confirm your new password",
+    "updating": "Updating...",
+    "update": "Update",
+    "titleF2a": "Two-Factor Authentication",
+    "descriptionF2a": "Enhance your account security by enabling two-factor authentication.",
+    "rules": {
+      "required": "Field required",
+      "uppercase": "At least one uppercase letter",
+      "number": "At least one number",
+      "specialChar": "At least one special character",
+      "passwordsMatch": "Passwords do not match",
+      "minLength": "Password must have at least 8 characters"
+    },
+    "newPassword": "New Password",
+    "passwordConfirmation": "Password Confirmation"
+  },
+  "inputPhone": {
+    "phoneNumber": "Phone Number",
+    "cancel": "Cancel",
+    "sending": "Sending...",
+    "continue": "Continue",
+    "loading": "Loading countries...",
+    "selectCountry": "Select"
+  },
+  "address": {
+    "complement": "Complement"
+  },
+  "profileTab": {
+    "profileTitle": "Profile Information",
+    "profileDescription": "Manage your contact information.",
+    "email": "Email",
+    "phone": "Phone",
+    "infoTitle": "General Information",
+    "infoDescriptionCnpj": "Your company and corporate name details.",
+    "infoDescription": "Your personal details.",
+    "nameCnpj": "Company Name",
+    "nameRazonSocial": "Corporate Name",
+    "cnpj": "CNPJ",
+    "name": "First Name",
+    "lastName": "Last Name",
+    "cpf": "CPF",
+    "birthday": "Date of Birth",
+    "fullName": "Mother's Name",
+    "legalEntityTitle": "Legal Representative",
+    "legalEntityDescription": "Information of the company’s representative.",
+    "address": "Address",
+    "addressTitle": "Address Information",
+    "addressDescription": "Your billing and shipping address."
+  },
+  "privateKeyCard": {
+    "title": "System private key",
+    "description": "Never share your private key via chat, email, screenshot or web forms.",
+    "label": "Private key",
+    "note": "Note: the key is masked for security. Viewing it will require a second factor.",
+    "alert": {
+      "title": "No second factor enabled",
+      "description": "An active second-factor authentication is required",
+      "continue": "Continue"
+    }
+  },
+  "mnemonicDialog": {
+    "steps": {
+      "credentials": "Credentials",
+      "success": "Success"
+    },
+    "title": "Mnemonic",
+    "description": "Secret key revealed",
+    "subtitle": "Enter your password and the second-factor verification code to continue."
+  }
+}

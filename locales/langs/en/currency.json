@@ -1,0 +1,49 @@
+{
+  "cardTitle": "Currency Details",
+  "cardDescription": "Detailed view of the currency",
+  "form": {
+    "config": "Configuration",
+    "name": "Name",
+    "symbol": "Symbol",
+    "decimals": "Decimals"
+  },
+  "currencyForm": {
+    "cardTitle": {
+      "create": "Create Currency",
+      "edit": "Edit Currency"
+    },
+    "cardDescription": {
+      "create": "Form to create a currency",
+      "edit": "Form to edit a currency"
+    },
+    "labels": {
+      "config": "Configuration",
+      "name": "Name",
+      "symbol": "Symbol",
+      "decimals": "Decimals",
+      "fixedPrice": "Fixed price of the currency on platform"
+    },
+    "placeholders": {
+      "selectCurrency": "Select a currency",
+      "name": "Enter name",
+      "symbol": "Enter symbol",
+      "decimals": "Enter number of decimals",
+      "price": "Enter price"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "errors": {
+      "configRequired": "Configuration is required",
+      "nameRequired": "Name is required",
+      "nameTooLong": "Name cannot exceed 100 characters",
+      "invalidDecimals": "Invalid decimals number",
+      "decimalRange": "Enter a number between 0 and 18",
+      "invalidPrice": "Invalid price"
+    },
+    "messages": {
+      "errorTitle": "An error has occurred"
+    }
+  }
+}

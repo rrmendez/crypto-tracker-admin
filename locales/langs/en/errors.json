@@ -1,0 +1,8 @@
+{
+  "error": {
+    "title": "Error",
+    "Bad credentials": "Credenciales no válidas",
+    "Token not found": "Token expired. Please request a new link to continue the recovery process.",
+    "Estamos presentando inconsistencia, intente más tarde!": "We are unable to assist you at this time, please try again later"
+  }
+}

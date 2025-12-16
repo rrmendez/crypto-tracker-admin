@@ -1,0 +1,107 @@
+{
+  "cardTitle": "Configuração de Limites",
+  "cardDescription": "Lista de limites configurados por operação",
+  "config": "Configurar",
+  "table": {
+    "operation": "Informações",
+    "edit": "Editar",
+    "details": "Ver detalhes",
+    "delete": "Eliminar"
+  },
+  "breadcrumb": {
+    "init": "Início",
+    "clients": "Clientes",
+    "settings": "Configurações",
+    "limits": "Limites",
+    "details": "Detalhes do limite",
+    "edit": "Editar Limite",
+    "new": "Criar Limite"
+  },
+  "accountLimits": "Limites da Conta",
+  "operations": {
+    "DEPOSIT": "Depósito",
+    "WITHDRAW": "Transferência",
+    "EXCHANGE": "Câmbio",
+    "SALE": "Venda",
+    "PAYMENT": "Pagamento"
+  },
+  "limitInfo": {
+    "day": "Diurno",
+    "night": "Noturno",
+    "minPerOperation": "Mínimo por operação",
+    "maxPerOperation": "Máximo por operação",
+    "maxPerMonth": "Máximo por mês"
+  },
+  "title": {
+    "LimitsDetails": "Detalhes do limite",
+    "edit.LimitsForm": "Editar limite",
+    "new.LimitsForm": "Configurar novo limite"
+  },
+  "field": {
+    "operation.LimitsDetails": "Operação",
+    "currency.LimitsDetails": "Moeda de referência:",
+    "minPerOp.LimitsDetails": "Mínimo por operação:",
+    "maxDay.LimitsDetails": "Máximo por operação diurna:",
+    "maxNight.LimitsDetails": "Máximo por operação noturna:",
+    "maxMonth.LimitsDetails": "Máximo por mês:",
+    "maxDayValidated.LimitsDetails": "Máximo por operação diurna:",
+    "maxNightValidated.LimitsDetails": "Máximo por operação noturna:",
+    "maxMonthValidated.LimitsDetails": "Máximo por mês:",
+    "operation.LimitsForm": "Operação",
+    "currency.LimitsForm": "Moeda de referência:",
+    "minPerOp.LimitsForm": "Mínimo por operação:",
+    "maxDay.LimitsForm": "Máximo por operação diurna:",
+    "maxNight.LimitsForm": "Máximo por operação noturna:",
+    "maxMonth.LimitsForm": "Máximo por mês:",
+    "maxDayValidated.LimitsForm": "Máximo por operação diurna:",
+    "maxNightValidated.LimitsForm": "Máximo por operação noturna:",
+    "maxMonthValidated.LimitsForm": "Máximo por mês:"
+  },
+  "section": {
+    "unverifiedUsers.LimitsDetails": "Limites aplicados a usuários não verificados",
+    "verifiedUsers.LimitsDetails": "Limites aplicados a usuários verificados",
+    "unverified.LimitsForm": "Limites aplicados a usuários não verificados",
+    "verified.LimitsForm": "Limites aplicados a usuários verificados"
+  },
+  "placeholder": {
+    "selectOperation.LimitsDetails": "Selecione uma operação",
+    "selectOperation.LimitsForm": "Selecione uma operação",
+    "amount.LimitsForm": "Digite o valor"
+  },
+  "button": {
+    "close.LimitsDetails": "Fechar",
+    "cancel.LimitsForm": "Cancelar",
+    "save.LimitsForm": "Salvar"
+  },
+  "LimitsTable": {
+    "table": {
+      "operation": "Operação",
+      "no_results": "Nenhum resultado."
+    },
+    "badge": {
+      "active": "Ativo"
+    },
+    "menu": {
+      "open": "Abrir menu",
+      "edit": "Editar",
+      "details": "Detalhes",
+      "delete": "Excluir"
+    },
+    "pagination": {
+      "page": "Página",
+      "of": "de",
+      "rows_per_page": "Linhas por página:",
+      "previous": "Anterior",
+      "next": "Próximo"
+    },
+    "modal": {
+      "title": "Excluir Limite",
+      "confirm_text": "Tem certeza de que deseja remover este limite?"
+    }
+  },
+  "errorEmpty": "O valor deve ser um número maior ou igual a 0 e não pode estar vazio",
+  "Limit already exists": "Essa operação já foi adicionada",
+  "operationEmpty": "A operação é obrigatória",
+  "currencyEmpty": "O código de moeda é obrigatório",
+  "unlimited": "Ilimitado"
+}

@@ -1,0 +1,96 @@
+{
+  "depositListView": {
+    "breadcrumb": {
+      "home": "Home",
+      "transactions": "Transactions",
+      "deposits": "Deposits"
+    },
+    "title": "Deposits",
+    "description": "List of deposits"
+  },
+  "depositsTable": {
+    "headers": {
+      "user": "User",
+      "operation": "Operation",
+      "amount": "Amount",
+      "currency": "Currency",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "status": "Status"
+    },
+    "actions": {
+      "details": "Details"
+    },
+    "filters": {
+      "userPlaceholder": "Name or identification (CPF or CNPJ)",
+      "datePlaceholder": "Select date",
+      "currencyPlaceholder": "Select currency",
+      "statusPlaceholder": "Select status",
+      "rolesPlaceholder": "Account type",
+      "status": {
+        "all": "All",
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "failed": "Failed"
+      },
+      "roles": {
+        "user": "Personal account",
+        "merchant": "Business account"
+      }
+    },
+    "empty": "No results found",
+    "pagination": {
+      "page": "Page",
+      "of": "of",
+      "rowsPerPage": "Rows per page",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "depositsDetailsView": {
+    "breadcrumb": {
+      "home": "Home",
+      "transactions": "Transactions",
+      "deposits": "Deposits",
+      "details": "Details",
+      "deposit": "Deposit"
+    },
+    "title": "Deposit Details"
+  },
+  "withdrawalsDetailsView": {
+    "breadcrumb": {
+      "home": "Home",
+      "transactions": "Transactions",
+      "withdrawals": "Withdrawals",
+      "details": "Details"
+    },
+    "title": "Withdrawal Details"
+  },
+  "withdrawalsListView": {
+    "breadcrumb": {
+      "home": "Home",
+      "transactions": "Transactions",
+      "withdrawals": "Transfers"
+    },
+    "title": "Transfers",
+    "description": "List of withdrawals"
+  },
+  "withdrawalsDetails": {
+    "status": "Status",
+    "currency": "Currency",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "amountSent": "Amount Sent",
+    "fees": "Fees",
+    "totalDeducted": "Total Deducted",
+    "fromAddress": "From Address",
+    "receivedBy": "Sent To",
+    "email": "Email",
+    "toAddress": "To Address",
+    "txHash": "Transaction Hash",
+    "moreDetails": "More Details",
+    "close": "Close",
+    "error": "Error loading transaction details.",
+    "information": "Financial information"
+  }
+}

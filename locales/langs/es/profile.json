@@ -1,0 +1,140 @@
+{
+  "breadcrumb": {
+    "home": "Inicio"
+  },
+  "profileView": {
+    "tabProfile": "Perfil",
+    "tabSecurity": "Seguridad",
+    "tabAccountLimit": "Límites de cuenta",
+    "init": "Inicio"
+  },
+  "editPhoneDialog": {
+    "edit": "Editar",
+    "add": "Adicionar",
+    "title": "Editar número de teléfono",
+    "description": "Su número de telefono ha sido actualizado con exito."
+  },
+  "editAddressDialog": {
+    "edit": "Editar",
+    "add": "Agregar",
+    "title": "Editar dirección",
+    "description": "Su dirección ha sido actualizada con éxito."
+  },
+  "disableSecondFactorDialog": {
+    "title": "Desactivar segundo factor",
+    "button": "Desactivar",
+    "message": "Utiliza tu app de Google Authenticator para escanear el código QR y completar la desactivación del segundo factor.",
+    "description": "Segundo factor de autenticación desactivado con éxito",
+    "password": "Insira la contraseña actual para desactivar el segundo factor",
+    "pwd": "Contraseña",
+    "code": "Código",
+    "success": "Éxito"
+  },
+  "activateSecondFactorDialog": {
+    "title": "Activar segundo factor",
+    "button": "Activar",
+    "message": "Utiliza tu app de Google Authenticator para escanear el código QR y completar la activación del segundo factor.",
+    "description": "Segundo factor de autenticación activado con éxito",
+    "toastCopy": "Clave copiada al portapapeles.",
+    "QR": "QR",
+    "code": "Código",
+    "success": "Éxito"
+  },
+  "qrStep": {
+    "description": "O copia y pega esta clave manualmente en tu app:",
+    "continue": "Continuar",
+    "cancel": "Cancelar"
+  },
+  "codeStep": {
+    "description": " Coloca el codigo generado en tu aplicativo para completar el proceso.",
+    "error": "Código incorrecto",
+    "back": "Atrás",
+    "continue": "Continuar",
+    "loading": "Verificando...",
+    "codeLabel": "Código de verificación (6 dígitos)",
+    "passwordLabel": "Contraseña de tu cuenta",
+    "passwordPlaceholder": "Introduce tu contraseña",
+    "submit": "Desactivar",
+    "passwordRequired": "La contraseña es obligatoria."
+  },
+  "success": {
+    "end": "Finalizar"
+  },
+  "securityTab": {
+    "required": "Contraseña obligatoria",
+    "success": "Contraseña actualizada correctamente.",
+    "error": "Error al actualizar la contraseña.",
+    "checkingError": "La contraseña no coincide con su contraseña actual.",
+    "title": "Actualizar contraseña",
+    "placeholderCurrent": "Ingresa tu contraseña actual",
+    "placeholderNew": "Ingresa tu nueva contraseña",
+    "placeholderConfirm": "Confirma tu nueva contraseña",
+    "updating": "Actualizando...",
+    "update": "Actualizar",
+    "titleF2a": "Segundo factor de autenticación",
+    "descriptionF2a": "Mejora la seguridad de tu cuenta activando el segundo factor de autenticación.",
+    "rules": {
+      "required": "Campo obligatorio",
+      "uppercase": "Al menos una letra en mayúscula",
+      "number": "Al menos un número",
+      "specialChar": "Al menos un carácter especial",
+      "passwordsMatch": "Las contraseñas no coinciden",
+      "minLength": "La contraseña debe tener al menos 8 caracteres"
+    },
+    "newPassword": "Nueva contraseña",
+    "passwordConfirmation": "Confirmación de contraseña"
+  },
+  "inputPhone": {
+    "phoneNumber": "Número de teléfono",
+    "cancel": "Cancelar",
+    "sending": "Enviando...",
+    "continue": "Continuar",
+    "loading": "Cargando países...",
+    "selectCountry": "Selecciona"
+  },
+  "address": {
+    "complement": "Complemento"
+  },
+  "profileTab": {
+    "profileTitle": "Información de Perfil",
+    "profileDescription": "Administra tu información de contacto.",
+    "email": "Email",
+    "phone": "Teléfono",
+    "infoTitle": "Información General",
+    "infoDescriptionCnpj": "Datos de tu empresa y razón social.",
+    "infoDescription": "Tus datos personales.",
+    "nameCnpj": "Nombre de la empresa",
+    "nameRazonSocial": "Razón social",
+    "cnpj": "CNPJ",
+    "name": "Nombre",
+    "lastName": "Apellido",
+    "cpf": "CPF",
+    "birthday": "Fecha de nacimiento",
+    "fullName": "Nombre de la madre",
+    "legalEntityTitle": "Representante Legal",
+    "legalEntityDescription": "Información del representante de la empresa.",
+    "address": "Dirección",
+    "addressTitle": "Información de Dirección",
+    "addressDescription": "Tu dirección de facturación y envío."
+  },
+  "privateKeyCard": {
+    "title": "Llave privada del sistema",
+    "description": "Nunca compartas tu clave privada por chat, email, screenshot o formularios web.",
+    "label": "Clave privada",
+    "note": "Nota: la llave queda enmascarada por seguridad. Para ver se solicitará segundo factor.",
+    "alert": {
+      "title": "No hay segundo factor activado",
+      "description": "Se requiere segundo factor de autenticación activo",
+      "continue": "Continuar"
+    }
+  },
+  "mnemonicDialog": {
+    "steps": {
+      "credentials": "Credenciales",
+      "success": "Éxito"
+    },
+    "title": "Mnemonic",
+    "description": "Clave secreta liberada",
+    "subtitle": "Ingresa tu contraseña y el código de verificación de segundo factor para continuar."
+  }
+}

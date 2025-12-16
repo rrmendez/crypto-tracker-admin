@@ -1,0 +1,114 @@
+{
+  "gasProvider": {
+    "title": "Billetera de Gas",
+    "loading": "Cargando...",
+    "noWallet": "No se encontró una billetera de gas",
+    "balance": "Balance",
+    "button": "Cargar",
+    "alert": "Envíe solo activos de <0/> a esta dirección. Activos de otra red se perderán para siempre.",
+    "deposits": "Depósitos",
+    "currency": "Moneda",
+    "placeholder": {
+      "currency": "Selecciona una moneda"
+    }
+  },
+  "feeAddress": {
+    "title": "Billetera de tasas",
+    "loading": "Cargando...",
+    "noWallet": "No se encontró una billetera de tasas",
+    "balance": "Balance",
+    "button": "Ver detalles",
+    "fees": "Tasas",
+    "price": "Precio",
+    "total": "Total"
+  },
+  "exchangeAddress": {
+    "title": "Billetera de compra y venta",
+    "loading": "Cargando...",
+    "noWallet": "No se encontró una billetera de intercambio",
+    "balance": "Balance",
+    "button": "Ver detalles"
+  },
+  "clients": {
+    "title": "Usuarios",
+    "noClientFound": "No hay clientes",
+    "noDataFound": "No se encontraron datos",
+    "walletDistribution": "Distribución",
+    "type": {
+      "user": "Persona",
+      "merchant": "Empresa"
+    }
+  },
+  "dialogs": {
+    "deposit": "Depositar fondos",
+    "withdraw": "Retirar fondos",
+    "balance": "Balance de los wallets"
+  },
+  "totalValue": {
+    "title": "Portafolio",
+    "balance": "Balance"
+  },
+  "marketBehavior": {
+    "title": "Comportamiento del mercado",
+    "currency": "Moneda",
+    "price": "Precio USD",
+    "variation": "Variación 24h"
+  },
+  "recentTransactions": {
+    "title": "Transacciones recientes"
+  },
+  "alert": {
+    "atention": "Atención",
+    "textOne": "Certifique que está enviando activos para un red <0/>.",
+    "textTwo": "<0/> Enviar activos a una red incorrecta puede resultar en la pérdida de fondos."
+  },
+  "send": {
+    "form": {
+      "to": {
+        "root": "Dirección de envio",
+        "placeholder": "Entre la dirección de destino",
+        "required": "Entre una dirección o nombre de dominio",
+        "invalid": "Dirección inválida",
+        "notSame": "La dirección de destino no puede ser la misma que la dirección del monedero",
+        "action": {
+          "paste": "Pegar"
+        }
+      },
+      "amount": {
+        "root": "Valor a transferir",
+        "required": "El importe es obligatorio",
+        "min": "El importe debe ser mayor o igual a {{min}}",
+        "notBalance": "Fondos insuficientes",
+        "notAllowed": "El importe excede el límite permitido",
+        "available": "Disponible: {{amount}} {{code}}",
+        "fee": "Comisión: {{amount}} {{code}}",
+        "feeLabel": "Comisión",
+        "amountDiscounted": "Valor a descontar",
+        "action": {
+          "max": "Máx"
+        }
+      },
+      "actions": {
+        "next": "Siguiente",
+        "confirm": "Confirmar"
+      }
+    }
+  },
+  "whithdraw": {
+    "success": "¡Transferencia exitosa!",
+    "steps": {
+      "information": "Información",
+      "details": "Detalles",
+      "code": "Conformación",
+      "success": "Éxito"
+    },
+    "informationStep": {
+      "currencyLabel": "Seleccione la moneda",
+      "continue": "Continuar",
+      "cancel": "Cancelar"
+    },
+    "detailsStep": {
+      "back": "Atrás"
+    }
+  }
+}

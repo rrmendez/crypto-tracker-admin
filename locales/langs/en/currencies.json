@@ -1,0 +1,40 @@
+{
+  "filters": {
+    "search": "Filter by name, code, symbol..."
+  },
+  "columns": {
+    "information": "Information"
+  },
+  "type": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "actions": {
+    "edit": "Edit",
+    "details": "View details",
+    "inative": "Deactivate",
+    "sync_price": "Sync Price",
+    "active": "Activate"
+  },
+  "results": {
+    "noResults": "No results found"
+  },
+  "modal": {
+    "titleActivate": "Activate Currency",
+    "titleInactive": "Deactivate Currency",
+    "contentActivate": "Are you sure you want to activate this currency?",
+    "contentInactive": "Are you sure you want to deactivate this currency?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "settings": "Settings",
+    "currencies": "Currencies",
+    "create": "Create Currency",
+    "edit": "Edit Currency",
+    "subTitle": "Currencies list",
+    "add": "Add",
+    "details": "Currency Details"
+  }
+}

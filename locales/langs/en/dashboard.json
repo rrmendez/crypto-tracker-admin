@@ -1,0 +1,114 @@
+{
+  "gasProvider": {
+    "title": "Gas Provider Wallet",
+    "loading": "Loading...",
+    "noWallet": "No gas provider wallet found",
+    "balance": "Balance",
+    "button": "Load",
+    "alert": "Send only <0/> assets to this address. Assets from another network will be lost forever.",
+    "deposits": "Deposits",
+    "currency": "Currency",
+    "placeholder": {
+      "currency": "Select a currency"
+    }
+  },
+  "feeAddress": {
+    "title": "Fee Wallet",
+    "loading": "Loading...",
+    "noWallet": "No fee address wallet found",
+    "balance": "Balance",
+    "button": "View details",
+    "fees": "Fees",
+    "price": "Price",
+    "total": "Total"
+  },
+  "exchangeAddress": {
+    "title": "Exchange and Sale Wallet",
+    "loading": "Loading...",
+    "noWallet": "No exchange address wallet found",
+    "balance": "Balance",
+    "button": "View details"
+  },
+  "clients": {
+    "title": "Users",
+    "noClientFound": "No clients found",
+    "noDataFound": "No data found",
+    "walletDistribution": "Distribution",
+    "type": {
+      "user": "Person",
+      "merchant": "Business"
+    }
+  },
+  "dialogs": {
+    "deposit": "Deposit founds",
+    "withdraw": "Withdraw founds",
+    "balance": "Balance of wallets"
+  },
+  "totalValue": {
+    "title": "Portfolio",
+    "balance": "Balance"
+  },
+  "marketBehavior": {
+    "title": "Market Behavior",
+    "currency": "Currency",
+    "price": "USD Price",
+    "variation": "24h Variation"
+  },
+  "recentTransactions": {
+    "title": "Recent Transactions"
+  },
+  "alert": {
+    "atention": "Attention",
+    "textOne": "Make sure you are sending assets to a <0/> network.",
+    "textTwo": "<0/> Sending assets to the wrong network may result in loss of funds."
+  },
+  "send": {
+    "form": {
+      "to": {
+        "root": "Address to send",
+        "placeholder": "Enter the destination address",
+        "required": "Enter an address or domain name",
+        "invalid": "Invalid address",
+        "notSame": "The destination address cannot be the same as the wallet address",
+        "action": {
+          "paste": "Paste"
+        }
+      },
+      "amount": {
+        "root": "Amount to transfer",
+        "required": "Amount is required",
+        "min": "Amount must be greater or equal to {{min}}",
+        "notBalance": "Insufficient funds",
+        "notAllowed": "Amount exceeds the allowed limit",
+        "available": "Available: {{amount}}",
+        "fee": "Fee: {{amount}}",
+        "feeLabel": "Fee",
+        "amountDiscounted": "Amount to discount",
+        "action": {
+          "max": "Max"
+        }
+      },
+      "actions": {
+        "next": "Next",
+        "confirm": "Confirm"
+      }
+    }
+  },
+  "whithdraw": {
+    "success": "Transfer successful!",
+    "steps": {
+      "information": "Information",
+      "details": "Details",
+      "code": "Confirmation",
+      "success": "Success"
+    },
+    "informationStep": {
+      "currencyLabel": "Select currency",
+      "continue": "Continue",
+      "cancel": "Cancel"
+    },
+    "detailsStep": {
+      "back": "Back"
+    }
+  }
+}
