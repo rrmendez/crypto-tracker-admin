@@ -2,7 +2,7 @@
 
 export type LanguageValue = "en" | "es" | "pt";
 
-export const fallbackLng = process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE ?? "pt";
+export const fallbackLng = (process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE as LanguageValue) ?? "pt";
 export const languages = ["pt", "es", "en"];
 export const defaultNS = "common";
 export const cookieName = "i18next";
