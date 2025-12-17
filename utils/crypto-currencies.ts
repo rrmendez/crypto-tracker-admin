@@ -3,6 +3,7 @@ import {
   bsc_logo,
   btc_logo,
   eth_logo,
+  leht_logo,
   pol_logo,
   usbb_logo,
   usdc_logo,
@@ -41,6 +42,8 @@ export function getCurrencyLogo(code?: string) {
       return pol_logo;
     case "USDC":
       return usdc_logo;
+    case "LEHT":
+      return leht_logo;
     default:
       return bnb_logo;
   }
